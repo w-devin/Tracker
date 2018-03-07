@@ -5,9 +5,9 @@ using namespace std;
 using namespace cv;
 
 string videos[] = {
-	"D:\\Backup\\Desktop\\L.avi",
-	"D:\\Backup\\Desktop\\R.avi"
-	//, "D:\\Backup\\Desktop\\LL.avi"
+	"D:\\Backup\\Desktop\\L.avi"
+	,"D:\\Backup\\Desktop\\R.avi"
+	//, "D:\\Backup\\Desktop\\test.mp4"
 };
 
 Point offset[2][2] = {
