@@ -21,10 +21,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tracker.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Targets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tracker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,5 +38,10 @@
     <ClCompile Include="Targets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.markdown">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
