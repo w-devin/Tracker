@@ -6,9 +6,14 @@ using namespace cv;
 
 //ÊÓÆµÁ÷Â·¾¶
 string videos[] = {
-	"D:\\Backup\\Desktop\\L.avi"
-	,"D:\\Backup\\Desktop\\R.avi"
+	"D:\\Backup\\Desktop\\L.avi",
+	"D:\\Backup\\Desktop\\R.avi",
 	//, "D:\\Backup\\Desktop\\test.mp4"
+	//"D:\\Backup\\Desktop\\vtest.avi"
+	//"D:\\Backup\\Desktop\\vtest.avi"
+	//"D:\\v\\East.avi", 
+	//"D:\\v\\West.avi", 
+
 };
 
 /*

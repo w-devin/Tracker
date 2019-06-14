@@ -35,6 +35,7 @@ Targets& Targets::operator=(const Targets &x)
 	this->color = x.color;
 	this->path = x.path;
 	this->time = x.time;
+	this->roi = x.roi;
 	
 	return *this;
 }
