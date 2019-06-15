@@ -17,6 +17,7 @@ public:
 	Scalar color;
 	vector<Point> path;
 	deque<Mat> roi;
+	vector<Point2f> contours;
 
 	//int lifeTime = 100; //目标信息保留周期
 public:

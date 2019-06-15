@@ -1,5 +1,6 @@
 #pragma once
 #include <opencv.hpp>
+#include <opencv2/ml/ml.hpp>
 #include "Targets.h"
 using namespace std;
 using namespace cv;
@@ -12,7 +13,7 @@ string videos[] = {
 	//"D:\\Backup\\Desktop\\vtest.avi"
 	//"D:\\Backup\\Desktop\\vtest.avi"
 	//"D:\\v\\East.avi", 
-	//"D:\\v\\West.avi", 
+	//"D:\\v\\West.avi",
 
 };
 
@@ -44,3 +45,4 @@ int Distance(Point a, Point b);
 void reNew(vector<Rect> &, int);
 void merge(int);
 bool isOne(Targets , Targets , int);
+void Train();
